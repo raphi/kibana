@@ -28,7 +28,7 @@ module.exports = function (grunt) {
                 complete: '=',
                 incomplete: ' ',
                 width: 80,
-                clear: true,
+                clear: false,
                 total: total
               });
             });
