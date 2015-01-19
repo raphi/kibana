@@ -28,7 +28,7 @@ if [ ! -x "${JAVA}" ]; then
 fi
 >&2 echo "The Kibana Backend is starting up... be patient"
 
-JAVA_OPTS="-Xmx512m $JAVA_OPTS"
+JAVA_OPTS="$JAVA_OPTS"
 
 # Clear gem paths so that we only use the gems inside the kibana.jar
 export GEM_HOME=
