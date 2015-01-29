@@ -20,8 +20,6 @@ var config = module.exports = {
   port                    : kibana.port || 5601,
   host                    : kibana.host || '0.0.0.0',
   elasticsearch           : kibana.elasticsearch_url || 'http://localhost:9200',
-  elasticsearch_username  : kibana.elasticsearch_username,
-  elasticsearch_password  : kibana.elasticsearch_password,
   root                    : path.normalize(path.join(__dirname, '..')),
   quiet                   : false,
   public_folder           : public_folder,
